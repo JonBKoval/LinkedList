@@ -1,4 +1,8 @@
 
 public class linkedList {
-	System.out.println("GitHub Repository test");
+	
+	public static void main(String[] args){
+		System.out.println("GitHub Repository test");
+		// This is a change
+	}
 }
