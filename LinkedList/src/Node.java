@@ -1,7 +1,7 @@
 
-public class Node<Type> {
-	private Type data;
-	private Node<Type> nextNode;
+public class Node<V> {
+	private V data;
+	private Node<V> nextNode;
 	
 	// Default Constructor
 	public Node(){
@@ -9,24 +9,24 @@ public class Node<Type> {
 	}
 
 	// Constructor
-	public Node(Type item, Node<Type> next) {
+	public Node(V item, Node<V> next) {
 		this.data = item;
 		this.nextNode = next;
 	}
 	
-	public Type getNodeData() {
+	public V getNodeData() {
 		return data;
 	}
 	
-	public Node<Type> getNext() {
+	public Node<V> getNext() {
 		return nextNode;
 	}
 	
-	public void setNode(Type item) {
+	public void setNode(V item) {
 		this.data = item;
 	}
 	
-	public void setNext(Node<Type> next) {
+	public void setNext(Node<V> next) {
 		this.nextNode = next;
 	}
 }
